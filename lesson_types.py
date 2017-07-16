@@ -45,3 +45,55 @@ print(total_seconds)
 lst=time.split(":")
 print(lst)
 
+#--------------------------------------------
+# unrial variant :)
+# #       01234567
+# time = "18:44:42"
+# idx_colon1 = time.find(":")
+# hours = (time[:2])
+# print(hours)
+# idx_colon2 = time.find(":", idx_colon1)
+# minutes = (time[3:5])
+# print(minutes)
+# idx_colon3 = time.find(":", idx_colon2)
+# seconds = (time[6:])
+# print(seconds)
+# total_seconds=hours*3600 + minutes*60 + seconds
+# print(total_seconds)
+#
+# lst=time.split(":")
+# print(lst)
+
+#-----------------------------------------------
+
+#       01234567
+time = "20:14:00"
+time_lst = time.split(":")
+hours = int(time_lst[0])
+print(hours)
+minutes = int(time_lst[1])
+print(minutes)
+seconds = int(time_lst[2])
+print(seconds)
+total_seconds=hours*3600 + minutes*60 + seconds
+print(total_seconds)
+
+#-----------------------------------------------
+
+name = "jeff bezos"
+name_lst = name.split()
+print(name_lst)
+name_lst [0] = name_lst[0].capitalize()
+name_lst [1] = name_lst[1].capitalize()
+print(name_lst)
+new_name = name_lst[0] + " " + name_lst[1]
+print(new_name)
+
+print(name.title())
+
+#----------------------
+import re
+
+s = "a,b c:d"
+lst = re.split("[, :]", s)
+print(lst)
