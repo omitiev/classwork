@@ -91,9 +91,11 @@ print(new_name)
 
 print(name.title())
 
-#----------------------
+#-----------------------------------------------
 import re
 
 s = "a,b c:d"
 lst = re.split("[, :]", s)
 print(lst)
+
+
