@@ -77,3 +77,35 @@ result6 = add_and_multiply(2, 3)
 pretty_print(result6)
 result7, result8 = add_and_multiply(3, 4)
 print(result7, result8)
+
+# дефолтное значение для функции ! дефолтные параметры должны идти всегда после недефолтных
+
+def add_and_multiply (x, y=10): # дефолтное значение для функции
+    result1 = x+y
+    result2 = x*y
+    return result1, result2
+
+result6 = add_and_multiply(2) # второе значение не указано - отрабатывается дефолтое значение
+pretty_print(result6)
+
+# empty function
+
+# def foo():
+#     pass #пасс это заглушка чтобы функция работала - замена ретурну
+
+
+#*9/5+32
+
+# def cel2far(x):
+#     x = x * 9 / 5 + 32
+#     return x
+#
+# a = 36.6
+# b = cel2far(a)
+# print(b)
+
+def celc2fareng(celc):
+    return celc*9/5 + 32
+
+result9 = celc2fareng(36.6)
+pretty_print(result9)
