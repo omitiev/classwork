@@ -42,3 +42,22 @@ if is_zero(b):
 else:
     result = a / b
     print(result)
+
+s = "A Ilon"
+c = s[0]
+
+if c == 'a' or c == 'A':
+    print('SUCCESS')
+else:
+    print('FAIL')
+
+
+def is_meleniun(year):
+    return year >= 1981 and year <= 2000
+
+y = int(input("Enter a year: "))
+
+if is_meleniun(y):
+    print("MILLENIUM")
+else:
+    print("NOT MILLENIUM")
