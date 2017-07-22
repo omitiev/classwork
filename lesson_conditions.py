@@ -52,12 +52,21 @@ else:
     print('FAIL')
 
 
-def is_meleniun(year):
+# def is_millenial(year):
+#     if year >= 1981 and year <= 2000:
+#         return True
+#     else:
+#         return False
+# if is_millenial(1995)
+#     print("I'm millenial!")
+
+
+def is_milleniun(year):
     return year >= 1981 and year <= 2000
 
 y = int(input("Enter a year: "))
 
-if is_meleniun(y):
+if is_milleniun(y):
     print("MILLENIUM")
 else:
     print("NOT MILLENIUM")
