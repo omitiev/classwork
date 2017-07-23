@@ -1,4 +1,5 @@
 import lesson_conditions
+import random
 
 for i in range(5):
     print("Hello world", i)
@@ -28,8 +29,42 @@ for i in range(2100):
 # list (r)
 # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-for i in range(0,10,2):
+for i in range(10,0,-2):
     print(i)
 
 for i in "abcdefghijkl":
     print(i)
+
+for i in range(101, 200, 2):
+    print(i)
+
+s = "Бронируйте онлайн, платите в отеле‎ Забронируйте отели в Сплите‎‎. Типы: ‎Отели‎, Апартаменты‎, Виллы‎, Хостелы‎, Курортные отели‎, Постель и завтрак‎"
+
+print("Capitals in %s:" % s)
+for char in s:
+    if char.isupper():
+        print(char)
+
+print("Punctual in %s:" % s)
+for char in s:
+    if char in ",.!;:?":
+        print(char)
+
+num_spaces = 0
+print("Spaces in %s:" % s)
+for char in s:
+    if char.isspace():
+        num_spaces += 1
+print("Number of spaces: %i" % num_spaces)
+
+num_summ = 0
+for i in range(101):
+    num_summ += i
+print("Total summ:", num_summ)
+
+num_summ = 0
+for i in range (100):
+    num = random.randint(100, 200)
+    print(num)
+    num_summ += num
+print(num_summ)
