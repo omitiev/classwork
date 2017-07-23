@@ -52,21 +52,37 @@ else:
     print('FAIL')
 
 
-# def is_millenial(year):
-#     if year >= 1981 and year <= 2000:
-#         return True
-#     else:
-#         return False
-# if is_millenial(1995)
-#     print("I'm millenial!")
+def is_millenial(year):
+    if 1981 <= year <= 2000:
+        return True
+    else:
+        return False
+if is_millenial(1995):
+    print("I'm millenial!")
 
 
-def is_milleniun(year):
-    return year >= 1981 and year <= 2000
+# def is_millenium(year):
+#     return year >= 1981 and year <= 2000
+#
+# y = int(input("Enter a year: "))
+#
+# if is_millenium(y):
+#     print("MILLENIUM")
+# else:
+#     print("NOT MILLENIUM"
+#
+#
 
-y = int(input("Enter a year: "))
+v_year = 2017
 
-if is_milleniun(y):
-    print("MILLENIUM")
+def is_leap_year(year):
+    return year % 4 == 0 and year % 100 != 0 or year % 400 == 0
+    # if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+    #     return True
+    # else:
+    #     return False
+
+if is_leap_year(v_year):
+    print("leap year")
 else:
-    print("NOT MILLENIUM")
+    print("regular year")
