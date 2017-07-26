@@ -68,3 +68,13 @@ for i in range (100):
     print(num)
     num_summ += num
 print(num_summ)
+
+def sum_random_numbers(min_v, max_v, num_of_numbers):
+    num_summ = 0
+    for i in range(num_of_numbers):
+        num = random.randint(min_v, max_v)
+        print(num)
+        num_summ += num
+    return print("Total summ:", num_summ)
+
+sum_random_numbers(0, 100, 100)
