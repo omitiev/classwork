@@ -106,3 +106,62 @@ def min_random_numbers(num_of_numbers, lower_bound=100, upper_bound=200):
 print("-----")
 result = min_random_numbers(10, -10, 20)
 print("answer: ", result)
+
+
+print("---------- while ----------")
+
+# def fill_track (max_volume, min_box_volume, max_box_volume):
+#     total_volume = 0
+#     while total_volume < max_volume:
+#         free_space = max_box_volume - total_volume
+#         box_volume = random.randint(min_box_volume, max_box_volume)
+#         if free_space >= box_volume:
+#             total_volume += box_volume
+#             print("box vol: %d total: %d " % (box_volume, total_volume))
+#         else:
+#             print("Last box skiped = %d" % box_volume)
+#     return total_volume
+#
+#
+# print("result:" , fill_track(100, 1, 15))
+#
+# def fill_track (max_volume, min_box_volume, max_box_volume):
+#     total_volume = 0
+#     free_space = max_volume
+#     while free_space > 0 :
+#         box_volume = random.randint(min_box_volume, max_box_volume)
+#         if free_space >= box_volume:
+#             free_space -= box_volume
+#             total_volume += box_volume
+#             print("box vol: %d total: %d " % (box_volume, total_volume))
+#         else:
+#             print("Last box skiped = %d" % box_volume)
+#     return total_volume
+#
+# s = input("enter value (e.g.: 2, 2, 2):").split(',')
+# print("result:", fill_track(int(s[0]), int(s[1]), int(s[2])))
+
+
+print("hello")
+print("1: fun")
+print("2: less fun")
+print("3: without fun")
+
+# print("Make the choice [1..3], q - exit")
+
+while True:
+    choice = input("Make the choice [1..3], q - exit")
+    if choice == 'q':
+        print("see you next time")
+        break
+    choice = int(choice)
+
+    if 1 <= choice <= 3:
+        if choice == 1:
+            print("take your fun")
+        if choice == 2:
+            print("take less fun")
+        if choice == 3:
+            print("why so serious?")
+    else:
+        print("repeat choice")
