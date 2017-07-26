@@ -69,12 +69,40 @@ for i in range (100):
     num_summ += num
 print(num_summ)
 
-def sum_random_numbers(min_v, max_v, num_of_numbers):
+
+def sum_random_numbers(num_of_numbers, lower_bound=100, upper_bound=200):
     num_summ = 0
     for i in range(num_of_numbers):
-        num = random.randint(min_v, max_v)
+        num = random.randint(lower_bound, upper_bound)
         print(num)
         num_summ += num
-    return print("Total summ:", num_summ)
+    return num_summ
 
-sum_random_numbers(0, 100, 100)
+print("Total summ:", sum_random_numbers(100, 10, 20))
+
+
+def max_random_numbers(num_of_numbers, lower_bound=100, upper_bound=200):
+    curr_max = lower_bound
+    for i in range(num_of_numbers):
+        num = random.randint(lower_bound, upper_bound)
+        print(num)
+        if num > curr_max:
+            curr_max = num
+    return curr_max
+
+print("-----")
+result = max_random_numbers(10, 10, 20)
+print("answer: ", result)
+
+def min_random_numbers(num_of_numbers, lower_bound=100, upper_bound=200):
+    curr_min = upper_bound
+    for i in range(num_of_numbers):
+        num = random.randint(lower_bound, upper_bound)
+        print(num)
+        if num < curr_min:
+            curr_min = num
+    return curr_min
+
+print("-----")
+result = min_random_numbers(10, -10, 20)
+print("answer: ", result)
