@@ -125,21 +125,21 @@ print("---------- while ----------")
 #
 # print("result:" , fill_track(100, 1, 15))
 #
-# def fill_track (max_volume, min_box_volume, max_box_volume):
-#     total_volume = 0
-#     free_space = max_volume
-#     while free_space > 0 :
-#         box_volume = random.randint(min_box_volume, max_box_volume)
-#         if free_space >= box_volume:
-#             free_space -= box_volume
-#             total_volume += box_volume
-#             print("box vol: %d total: %d " % (box_volume, total_volume))
-#         else:
-#             print("Last box skiped = %d" % box_volume)
-#     return total_volume
-#
-# s = input("enter value (e.g.: 2, 2, 2):").split(',')
-# print("result:", fill_track(int(s[0]), int(s[1]), int(s[2])))
+def fill_track (max_volume, min_box_volume, max_box_volume):
+    total_volume = 0
+    free_space = max_volume
+    while free_space > 0 :
+        box_volume = random.randint(min_box_volume, max_box_volume)
+        if free_space >= box_volume:
+            free_space -= box_volume
+            total_volume += box_volume
+            print("box vol: %d total: %d " % (box_volume, total_volume))
+        else:
+            print("Last box skiped = %d" % box_volume)
+    return total_volume
+
+s = input("enter value (e.g.: 2, 2, 2):").split(',')
+print("result:", fill_track(int(s[0]), int(s[1]), int(s[2])))
 
 
 print("hello")
