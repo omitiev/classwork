@@ -13,3 +13,18 @@ for i in range (2, 7):
 print('------')
 for i in range (len(lst)):
     print(lst[i])
+
+print('------')
+for i in range (len(lst)):
+    print(lst[i])
+    lst[i] *= 2
+print(lst)
+
+
+print('------')
+for i in range (len(lst)):
+    print(lst[i])
+    lst[i] **= 2
+print(lst)
+
+
