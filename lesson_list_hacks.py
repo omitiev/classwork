@@ -2,6 +2,7 @@ import math
 import string
 import random
 
+# list comprehentions
 lst = [i for i in range (1, 101)]
 print(lst)
 
@@ -62,3 +63,36 @@ print(result)
 result2 = [word for word in text1.split() if word in text2.split()]
 print(result2)
 
+
+# list functions
+
+lst = [i for i in range(1, 101)]
+print(lst)
+print(sum(lst))
+print(sum([int(i) for i in ['1', '2', '3']]))
+print(min([random.randint(10,200) for i in range(100)]))
+
+
+# lst = list(input("Please enter a min, max, and range (e.g. 2, 15, 100 ): "))
+# print(max([random.randint(int(lst[0]), int(lst[1])) for i in range(int(lst[2])]))
+
+##### TUPLE
+def foo():
+    return 1, 2
+
+x, y = foo()
+print(x, y)
+t = foo()
+print(t, type(t))
+
+def foo (*args):
+    print(type(args), args)
+    for arg in args:
+        print(arg, type(arg))
+
+foo(1)
+foo(1,2)
+foo(1,2,"3")
+
+var = (4,)
+print((type(var)))
