@@ -48,7 +48,7 @@ print_matrix(matrix)
 #             matrix[i][j] = num
 #         print()
 #
-# matrix = initialize_matrix(matrix, 10, 100)
+# initialize_matrix(matrix, 10, 100)
 # print("~~~~~~~~~")
 # print_matrix(matrix)
 #
