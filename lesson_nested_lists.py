@@ -40,16 +40,30 @@ M = 5
 matrix = [[0] * N] * M
 print_matrix(matrix)
 
-def initialize_matrix(matrix, lower_bound, upper_bound):
-    for i in range(len(matrix)):
-        for j in range(len(matrix[i])):
-            num = random.randint(lower_bound, upper_bound)
-            print(num, end="\t")
-            matrix[i][j] = num
+# def initialize_matrix(matrix, lower_bound, upper_bound):
+#     for i in range(len(matrix)):
+#         for j in range(len(matrix[i])):
+#             num = random.randint(lower_bound, upper_bound)
+#             print(num, end="\t")
+#             matrix[i][j] = num
+#         print()
+#
+# matrix = initialize_matrix(matrix, 10, 100)
+# print("~~~~~~~~~")
+# print_matrix(matrix)
+#
+# matrix2 = copy.deepcopy(matrix)
+
+def pyph_table(n=9, m=9):
+    for i in range(1, n+1):
+        for j in range (1, m+1):
+            print("%d" % (i*j), end="\t")
         print()
+print(pyph_table())
 
-initialize_matrix(matrix, 10, 100)
-print("~~~~~~~~~")
-print_matrix(matrix)
-
-matrix2 = copy.deepcopy(matrix)
+def print_chess():
+    for i in range(1, 9):
+        for j in "ABCDEFGH":
+            print("%s" % (str(j)+str(i)), end="\t")
+        print()
+print(print_chess())
