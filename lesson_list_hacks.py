@@ -107,3 +107,80 @@ def fibonacci_number(n):
         return fibonacci_number(n-1) + fibonacci_number(n-2)
 
 print(fibonacci_number(7))
+
+# map, labda, filter
+
+def func(a):
+    return a+1
+
+result = list(map(func, [1, 2, 3]))
+
+print(result)
+
+for elem in result:
+    print(elem)
+
+lst1 = list(map(lambda x: x+2, [1, 2, 3]))
+print(lst1)
+
+lst2 = list(filter(lambda x: x%2, [1, 2, 3, 4, 5, 6, 7, 8, 9]))
+print(lst2)
+
+lst3 = list(map(lambda x: x**2,
+                filter(lambda x: not x%2,
+                       [1, 2, 3, 4, 5, 6, 7, 8, 9])))
+print(lst3)
+
+
+row = 'Wellcom2Hillel'
+
+row2 = list(map(lambda x: ord(x),
+                filter(lambda x: x.isupper(), row)))
+
+print(row2)
+
+p_lst = ['mercury', 'mars', 'earth', 'venus']
+
+def get_lenght(s):
+    return len(s)
+
+print(p_lst)
+p_lst.sort(key=lambda elem: len(elem), reverse=False)
+print(p_lst)
+
+
+print(p_lst)
+p_lst.sort(key=len, reverse=True)
+print(p_lst)
+
+
+n_list  = [1, 2, 3, -4, 5, -11, 3, -5, 7, 88, -12]
+print(n_list)
+n_list.sort(key=abs)
+print(n_list)
+
+students = [
+    ['Тимченко Дмитрий', '23', 'dmt.tym@gmail.com'],
+    ['Юношев Павел', '3', 'p.n.yunoshev@gmail.com'],
+    ['Лукшин Евгений', '31', 'otis01990@gmail.com'],
+    ['Сеченова Анна', '6', 'sechenovaanna@gmail.com'],
+    ['Квято Сергей', '31', 'skvantos@gmail.com'],
+    ['Кань Евгений', '4', 'suckrat.us1337@gmail.com'],
+    ['Лавренко Евгений', '25', 'superlavrik@gmail.com'],
+    ['Кирсанов Илья', '29', 'ilya.kirsanov@gmail.com'],
+    ['Жолондковский Вадим', '16', 'vadymzholondkovskiy@gmail.com'],
+    ['Марченко Вадим', '25', 'wardomir@gmail.com'],
+    ['Митев Алексей', '28', 'oleksii.mitiev@gmail.com'],
+    ['Якутко Анастасия', '16', 'anastasiia.yakutko@gmail.com'],
+    ['Каменцев Никита', '26', 'niqkamentsev@gmail.com'],
+    ['Белоус Екатерина', '17', 'katherinebilous@gmail.com'],
+    ['Друмов Вадим', '6', 'vkdrumov@gmail.com']
+]
+
+print(students)
+
+p_lst2 = [['mercury', 123], ['mars', 3450], ['earth', 1910], ['earth', 1900], ['venus', 4500]]
+p_lst2.sort(key=lambda elem: elem[1])
+print(p_lst2)
+p_lst2.sort(key=lambda elem: (len(elem[0]), elem[0], elem[1]))
+print(p_lst2)
