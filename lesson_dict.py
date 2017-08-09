@@ -1,5 +1,9 @@
 import pprint
+import sys
+import collections
 
+
+print(sys.version_info)
 d = {"earth":"земля", "mars":"марс", "venus":"венера"}
 print(d, type(d))
 
@@ -49,7 +53,7 @@ for key in d.keys():
 for value in d.values():
     print(value)
 
-student1 = {'name':"Alice", 'age':24, "year":2, "grant":1000}
+student1 = {'name':"Alice", 'age':24, "year":2, "grant":1000, "bonus":1000, "head_of_":True }
 student2 = {'name':"Bob", 'age':22, "year":1}
 student3 = {'name':"Bill", 'age':19, "year":1}
 
@@ -69,6 +73,7 @@ for student in group:
         student['grant'] = 1000
 
 pprint.pprint(group)
+print(student1)
 
 group.sort(key=lambda student: student['age'])
 
@@ -78,3 +83,27 @@ group.sort(key=lambda student: (student['grant'], student['name']), reverse= Tru
 
 print("new")
 pprint.pprint(group)
+
+# dict comprephention
+# d = {i:chr(i) for i in range(10000+1)}
+# pprint.pprint(d)
+
+print(student1)
+pprint.pprint(student1)
+
+d = collections.OrderedDict()
+
+d['age'] = 42
+d['name'] = 'Bill'
+d['title'] = 'CIO'
+d['dep'] = 'IT'
+d['salary'] = 120000
+
+print(d)
+
+####################################################################
+# def print_entry(entry):
+#     for key in entry:
+#         print("%s:\t%s" %(key, entry[key]))
+#
+# print_entry(d)
