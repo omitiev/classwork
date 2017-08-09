@@ -70,3 +70,11 @@ for student in group:
 
 pprint.pprint(group)
 
+group.sort(key=lambda student: student['age'])
+
+pprint.pprint(group)
+
+group.sort(key=lambda student: (student['grant'], student['name']), reverse= True)
+
+print("new")
+pprint.pprint(group)
