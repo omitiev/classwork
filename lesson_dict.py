@@ -107,3 +107,5 @@ print(d)
 #         print("%s:\t%s" %(key, entry[key]))
 #
 # print_entry(d)
+
+print(d['dep'])
