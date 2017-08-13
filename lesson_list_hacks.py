@@ -1,6 +1,8 @@
 import math
 import string
 import random
+import functools
+
 
 # list comprehentions
 lst = [i for i in range (1, 101)]
@@ -184,3 +186,5 @@ p_lst2.sort(key=lambda elem: elem[1])
 print(p_lst2)
 p_lst2.sort(key=lambda elem: (len(elem[0]), elem[0], elem[1]))
 print(p_lst2)
+
+

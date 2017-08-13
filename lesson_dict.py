@@ -1,7 +1,7 @@
 import pprint
 import sys
 import collections
-
+import functools
 
 print(sys.version_info)
 d = {"earth":"земля", "mars":"марс", "venus":"венера"}
@@ -109,3 +109,22 @@ print(d)
 # print_entry(d)
 
 print(d['dep'])
+
+#######################################################################
+def compare_students(st1, st2):
+    if st1['grant'] == st2['grant'] and st1['name'] == st2['name']:
+        return 0
+    elif st1['grant'] < st2['grant'] and st1['name'] < st2['name']:
+        return -1
+    else: # st1['grant'] > st2['grant'] and st1['name'] < st2['name']:
+        return 1
+
+group.sort(key=functools.cmp_to_key(compare_students))
+pprint.pprint(group)
+
+en2es_dict = {'world': 'mundo',
+              'language': 'idioma',
+              'bye': 'hasta la vista'}
+es2en_dict = {v:k for k, v in en2es_dict.items()}
+print(es2en_dict)
+print(es2en_dict['mundo'])
