@@ -1,5 +1,7 @@
+from person import Person
 
-class Student:
+
+class Student(Person):
     '''
 
     Student class
@@ -14,9 +16,10 @@ class Student:
     TEST_WEIGHTS = [1, 1, 1, 2, 2, 2, 4, 4, 4, 8, 8, 15]
 
     def __init__(self, name, age=18):
-        print('Self', self, id(self))
-        self.name = name
-        self.age = age
+        super().__init__(name, age)
+        # print('Self', self, id(self))
+        # self.name = name
+        # self.age = age
         self.hw_results = [0]*Student.NUMBER_OF_TASKS
         self.test_results = [0]*Student.NUMBER_OF_TESTS
         self._total_rank_dirty = True
