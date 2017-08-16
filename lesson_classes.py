@@ -14,6 +14,10 @@ import pprint
 
 
 class Student:
+    '''
+
+    Student class
+    '''
 
     # def __init__(self):
     #     print('Self', self, id(self))
@@ -29,6 +33,9 @@ class Student:
         self.age = age
         self.hw_results = [0]*Student.NUMBER_OF_TASKS
         self.test_results = [0]*Student.NUMBER_OF_TESTS
+        self._total_rank_dirty = True
+        self._total_rank = 0
+
 
     def print_info(self):
         print('_______________________')
@@ -36,15 +43,27 @@ class Student:
         print('Age:', self.age)
         print('H/w results:', self.hw_results)
         print('Test results:', self.test_results)
+        print('Total rank:', self.total_rank())
         print('_______________________')
 
     def accepted_task(self, *number_of_tasks):
+        self._total_rank_dirty = True
         for task_number in number_of_tasks:
             self.hw_results[task_number-1] = 1
 
     def accepted_test(self, *number_of_tests):
+        self._total_rank_dirty = True
         for test_number in number_of_tests:
             self.test_results[test_number-1] = 1
+
+    def total_rank(self):
+        if self._total_rank_dirty:
+            total_rank = sum(self.hw_results)
+            for i in range(Student.NUMBER_OF_TESTS):
+                total_rank += self.test_results[i] * Student.TEST_WEIGHTS[i]
+            self._total_rank = total_rank
+            self._total_rank_dirty = False
+        return self._total_rank
 
 student1 = Student('Bill', 22)
 print(type(student1))
@@ -66,9 +85,9 @@ student1.accepted_task(3, 5, 7, 11, 13, 17, 19)
 student2.accepted_task(1, 2, 3, 4, 5, 6)
 student3.accepted_task(1, 2, 3)
 
-student1.accepted_task(3, 5, 7, 11, 13, 17, 19)
-student2.accepted_task(1, 2, 3, 4, 5, 6)
-student3.accepted_task(1, 2, 3)
+student1.accepted_test(1, 5, 7, 11, 8, 4, 12)
+student2.accepted_test(1, 2, 3, 4, 5, 6)
+student3.accepted_test(1, 2, 3)
 
 
 
@@ -76,4 +95,8 @@ student1.print_info()
 student2.print_info()
 student3.print_info()
 
-
+# pprint.pprint(Student.__dict__)
+# pprint.pprint(student1.__dict__)
+student1.__dict__['name'] = 'William'
+print(student1.__dict__['name'])
+print(student1.name)
