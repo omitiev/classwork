@@ -17,7 +17,7 @@ class Student(Person):
 
     def __init__(self, name, age=18):
         super().__init__(name, age)
-        # print('Self', self, id(self))
+        # print('Self', self, id(self)) replaced by upper line
         # self.name = name
         # self.age = age
         self.hw_results = [0]*Student.NUMBER_OF_TASKS
@@ -27,9 +27,10 @@ class Student(Person):
 
 
     def print_info(self):
-        print('_______________________')
-        print('Name:', self.name)
-        print('Age:', self.age)
+        super().print_info()
+        # print('_______________________') replaced by upper line
+        # print('Name:', self.name)
+        # print('Age:', self.age)
         print('H/w results:', self.hw_results)
         print('Test results:', self.test_results)
         print('Total rank:', self.total_rank())

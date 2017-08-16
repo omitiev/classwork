@@ -5,6 +5,7 @@ class Professor(Person):
         super().__init__(name, age)
     #     self.name = name
     #     self.age = age
+        print('_______________________')
     #
     # def print_info(self):
     #     print('_______________________')

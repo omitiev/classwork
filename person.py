@@ -7,4 +7,4 @@ class Person:
         print('_______________________')
         print('Name:', self.name)
         print('Age:', self.age)
-        print('_______________________')
+        # print('_______________________')
