@@ -40,17 +40,19 @@ M = 5
 matrix = [[0] * N] * M
 print_matrix(matrix)
 
-# def initialize_matrix(matrix, lower_bound, upper_bound):
-#     for i in range(len(matrix)):
-#         for j in range(len(matrix[i])):
-#             num = random.randint(lower_bound, upper_bound)
-#             print(num, end="\t")
-#             matrix[i][j] = num
-#         print()
-#
-# initialize_matrix(matrix, 10, 100)
-# print("~~~~~~~~~")
-# print_matrix(matrix)
+print("test")
+
+def initialize_matrix(matrix, lower_bound, upper_bound):
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            num = random.randint(lower_bound, upper_bound)
+            print(num, end="\t")
+            matrix[i][j] = num
+        print()
+
+initialize_matrix(matrix, 10, 100)
+print("~~~~~~~~~")
+print_matrix(matrix)
 #
 # matrix2 = copy.deepcopy(matrix)
 
