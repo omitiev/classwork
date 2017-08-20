@@ -26,15 +26,22 @@ class Student(Person):
         self._total_rank = 0
 
 
-    def print_info(self):
-        super().print_info()
-        # print('_______________________') replaced by upper line
-        # print('Name:', self.name)
-        # print('Age:', self.age)
+    # def print_info(self):
+    #     super().print_info()
+    #     # print('_______________________') replaced by upper line
+    #     # print('Name:', self.name)
+    #     # print('Age:', self.age)
+    #     print('H/w results:', self.hw_results)
+    #     print('Test results:', self.test_results)
+    #     print('Total rank:', self.total_rank())
+    #     print('_______________________')
+
+
+    def print_info_ext(self):
         print('H/w results:', self.hw_results)
         print('Test results:', self.test_results)
         print('Total rank:', self.total_rank())
-        print('_______________________')
+
 
     def accepted_task(self, *number_of_tasks):
         self._total_rank_dirty = True

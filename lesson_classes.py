@@ -58,3 +58,11 @@ if __name__ == "__main__":
     print('====================================================================================')
     pr1 = Professor('Donald Knuth', 42)
     pr1.print_info()
+    pr1.salary = 1000
+    pr1.print_info()
+
+    print(pr1.groups)
+    #
+    print(pr1.get_group())
+    pr1._groups = ["Math", "CS", "ML", "AI"]
+    print(pr1.get_group())
