@@ -16,4 +16,4 @@ def pyph_table(n=9, m=9):
             print("%d" % (i*j), end="\t")
         print()
 
-pyph_table(2, 5)
+pyph_table(9, 9)
