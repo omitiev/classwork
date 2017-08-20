@@ -13,6 +13,7 @@ import pprint
 #
 
 from student import Student
+from professor import Professor
 from person import Person
 
 if __name__ == "__main__":
@@ -51,3 +52,9 @@ if __name__ == "__main__":
     student1.__dict__['name'] = 'William'
     print(student1.__dict__['name'])
     print(student1.name)
+
+    print('====================================================================================')
+    print('NEW')
+    print('====================================================================================')
+    pr1 = Professor('Donald Knuth', 42)
+    pr1.print_info()
