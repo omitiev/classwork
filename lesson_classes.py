@@ -63,6 +63,7 @@ if __name__ == "__main__":
 
     print(pr1.groups)
     #
-    print(pr1.get_group())
+    # print(pr1.get_group())
     pr1._groups = ["Math", "CS", "ML", "AI"]
-    print(pr1.get_group())
+    # print(pr1.get_group())
+    print(pr1.group)

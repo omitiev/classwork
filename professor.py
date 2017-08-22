@@ -50,7 +50,9 @@ class Professor(Person):
         if group in self._groups:
             self._groups.remove(group)
 
-    def get_group(self):
+
+    @property
+    def group(self):
         return self._groups
 
 
