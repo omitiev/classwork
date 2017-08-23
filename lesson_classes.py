@@ -67,3 +67,6 @@ if __name__ == "__main__":
     pr1._groups = ["Math", "CS", "ML", "AI"]
     # print(pr1.get_group())
     print(pr1.group)
+    print(student1.__str__())
+    student_str = str(student1)
+    print(student_str)

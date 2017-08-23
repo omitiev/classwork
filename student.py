@@ -61,3 +61,7 @@ class Student(Person):
             self._total_rank = total_rank
             self._total_rank_dirty = False
         return self._total_rank
+
+    def __str__(self):
+        return  '%s: name=%s, age=%s' % \
+                (self.__class__.__name__, self.name, self.age)
