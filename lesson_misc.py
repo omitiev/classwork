@@ -4,6 +4,7 @@
 # #....
 # #....
 # f.close()
+import time
 
 class MgrContextTest:
 
@@ -63,7 +64,96 @@ class frange:
                                       self.step)
 
 
+
 for x in frange(1, 10, 2.5):
     print(x)
 
 print(len(list(frange(1, 10, 2.5))))
+
+def perf_meter_v2(func):
+
+    def inner(*args):
+        start = time.time()
+        result = func(*args)
+        print(time.time() - start)
+        return result
+    return inner
+
+
+def cache_it(func):
+    cache = {}
+
+    def inner(*args):
+        if args not in cache:
+            cache[args] = func(*args)
+        return cache[args]
+
+    return inner
+
+@cache_it
+@perf_meter_v2
+def foo(n):
+    time.sleep(n)
+    return n*42
+
+@perf_meter_v2
+def is_sorted(iterable):
+    result = iterable == sorted(iterable)
+    return result
+
+result = is_sorted([1,2,3,4,5])
+print(result)
+
+result = is_sorted([1,2,3,4,1])
+print(result)
+
+# assert is_sorted([1,2,3,4,5]) == True
+# assert is_sorted([1,2,3,4,1]) == True
+
+@perf_meter_v2
+def is_sorted_v2(iterable):
+    it = iter(iterable)
+    it2 = iter(iterable)
+    next(it2)
+    # print(list(zip(it, it2)))
+    result = all(map(lambda t: t[0] <= t[1], (zip(it, it2))))
+    return result
+    # all - vse elementi iteratora = True
+    # any - naoborot
+
+    # return iterable == sorted(iterable)
+
+print(is_sorted_v2([1, 2, 3, 4, 5]))
+print("NEW")
+# assert is_sorted([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 10]) == False
+# assert is_sorted_v2([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 10]) == False
+# assert is_sorted_v2([1,2,3,4,1]) == True
+
+
+
+
+# def perf_meter(func):
+#     start = time.time()
+#     func()
+#     print(time.time() - start)
+#
+# print('NEW+++++++++')
+#
+# perf_meter(foo)
+
+
+
+print('NEW2++++++++')
+# foo = perf_meter_v2(foo)
+foo(1)
+print('NEW3++++++++')
+foo(1)
+
+print('NEW4++++++++')
+# assert is_sorted([1, 2, 3, 4, 5]) == True
+# assert is_sorted_v2([1, 2, 3, 4, 5]) == True
+
+print('NEW5++++++++')
+result1 = foo(2)
+result2 = foo(2)
+print(result1, result2)
