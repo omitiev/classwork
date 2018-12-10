@@ -1,0 +1,8 @@
+2018-11-17 13:38:21.236716 function_name = get_query_params result = {'a': '1', 'b': '2', 'c': '3', 'd': '4'} worktime = 1.2636184692382812e-05 
+2018-11-17 13:40:49.595937 function_name = get_query_params result = None worktime = 2.3603439331054688e-05 
+2018-11-17 13:41:34.485577 function_name = get_query_params result = {'a': '1', 'b': '2', 'c': '3', 'd': '4'} worktime = 9.5367431640625e-06 
+2018-11-17 13:41:34.485709 function_name = get_query_params result = None worktime = 7.3909759521484375e-06 
+2018-11-17 13:45:02.511090 function_name = get_query_params result = {'a': '1', 'b': '2', 'c': '3', 'd': '4'} worktime = 1.3113021850585938e-05 
+2018-11-17 13:45:02.511260 function_name = get_query_params result = None worktime = 1.0251998901367188e-05 
+2018-11-17 13:47:32.354029 function_name = get_query_params result = {'a': '1', 'b': '2', 'c': '3', 'd': '4'} worktime = 9.059906005859375e-06 
+2018-11-17 13:47:32.354162 function_name = get_query_params result = None worktime = 6.9141387939453125e-06 
