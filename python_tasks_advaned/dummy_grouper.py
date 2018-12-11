@@ -1,4 +1,4 @@
-import itertools
+from itertools import islice
 
 '''
 
@@ -33,25 +33,20 @@ User time (seconds): 2.31
 
 '''
 
-def dummy_grouper(data, n):
-    groups_count = len(data) // n
-    return [tuple(data[i*n:(i+1)*n]) for i in range(groups_count)]
-test_num_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# def dummy_grouper(data, n):
+#     groups_count = len(data) // n
+#     return [tuple(data[i*n:(i+1)*n]) for i in range(groups_count)]
+# test_num_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-print(dummy_grouper(test_num_list, 2))
+# print(dummy_grouper(test_num_list, 2))
 # [(1, 2), (3, 4), (5, 6), (7, 8), (9, 10)]
 # dummy_grouper(range(100000000), 10)
 
 
 def smart_grouper(data, n):
     iterator = iter(data)
-    for i in range(len(data // n)):
-        yield (i,next(iterator))
-
-print(list(smart_grouper(test_num_list, 2)))
-
-
-# def new_enumerate(iterable):
-#     it = iter(iterable)
-#     for i in range (len(iterable)):
-#         yield (i, next(it))
+    for i in range(len(data) // n):
+        yield tuple(islice(iterator, 0, n))
+#
+# print(list(smart_grouper(test_num_list, 2)))
+smart_grouper(range(100000000), 10)
