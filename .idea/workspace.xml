@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25c833b4-b254-4b43-ae8a-295cf7908dd4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/python_lessons.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/__init__.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/cels.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/cels.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/dummy_grouper.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/dummy_grouper.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/hw_2.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/hw_2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/hw_4.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/hw_4.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/hw_5.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/hw_5.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/hw_6.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/hw_6.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/hw_7.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/hw_7.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/hw_8.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/hw_8.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/log(copy).txt" afterPath="$PROJECT_DIR$/python_tasks_advanced/log(copy).txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/log.txt" afterPath="$PROJECT_DIR$/python_tasks_advanced/log.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/log_copy.txt" afterPath="$PROJECT_DIR$/python_tasks_advanced/log_copy.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/logger.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/logger.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/person.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/person.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/price.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/price.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/query_params_log.txt" afterPath="$PROJECT_DIR$/python_tasks_advanced/query_params_log.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/task_lfu_cache.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/task_lfu_cache.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_tasks_advaned/task_lru_cache.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/task_lru_cache.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_tasks_advaned/dummy_grouper.py" afterPath="$PROJECT_DIR$/python_tasks_advaned/dummy_grouper.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,22 +34,32 @@
     <favorites_list name="classwork" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="dummy_grouper.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_tasks_advaned/dummy_grouper.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="lesson_7.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_lessons_advanced/lesson_7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="760">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dummy_grouper.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_tasks_advanced/dummy_grouper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
               <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson_7.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_lessons_advanced/lesson_7.py">
+      <file leaf-file-name="logger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_tasks_advanced/logger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="1040">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -114,8 +139,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -138,7 +163,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python_tasks_advaned" />
+              <option name="myItemId" value="python_tasks_advanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,13 +397,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499609798177</updated>
-    </task>
-    <task id="LOCAL-00007" summary="initial commit">
-      <created>1500477328967</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1500477328967</updated>
     </task>
     <task id="LOCAL-00008" summary="initial commit">
       <created>1500479198738</created>
@@ -716,7 +734,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544477484047</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="task dummy_grouper - done">
+      <created>1544558786735</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1544558786741</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TodoView">
@@ -730,12 +755,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-11" width="1865" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19262521" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19482663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5041277" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.49587232" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.49587232" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.49587232" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776618" sideWeight="0.49587232" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -764,7 +788,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="intermediate commit" />
     <MESSAGE value="update repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="update repository" />
+    <MESSAGE value="task dummy_grouper - done" />
+    <option name="LAST_COMMIT_MESSAGE" value="task dummy_grouper - done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -773,13 +798,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python_lessons_basics/lesson_loops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="69" column="14" lean-forward="false" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_lessons_basics/lesson_types.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1110,17 +1128,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_lessons_advanced/lesson_7.py">
+    <entry file="file://$PROJECT_DIR$/python_tasks_advanced/logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="1040">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_tasks_advaned/dummy_grouper.py">
+    <entry file="file://$PROJECT_DIR$/python_lessons_advanced/lesson_7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="760">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_tasks_advanced/dummy_grouper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
           <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
           <folding />
         </state>
