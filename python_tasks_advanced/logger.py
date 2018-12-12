@@ -1,3 +1,5 @@
+import functools
+
 '''
 
 Задание - представим есть файл с логами, его нужно бессконечно контролировать
@@ -65,3 +67,44 @@ follow(f_open,
 https://www.dabeaz.com/coroutines/Coroutines.pdf
 
 '''
+
+
+def coroutine(func):
+    @functools.wraps(func)
+    def inner(*args, **kwargs):
+        res = func(*args, **kwargs)
+        next(res)
+        return res
+    return inner
+
+
+@coroutine
+def grep(*args):
+    while True:
+        line = yield
+        if args in line:
+            return line
+
+
+@coroutine
+def printer():
+    pass
+
+
+@coroutine
+def dispenser(*args):
+    pass
+
+
+def follow(*args):
+    # your code here
+
+    f_open = open('log.txt')  # подключаемся к файлу
+    follow(f_open,
+           # делегируем ивенты
+           dispenser([
+               grep('python', printer()),  # отслеживаем
+               grep('is', printer()),  # заданные
+               grep('great', printer()),  # сигнатуры
+           ])
+           )
