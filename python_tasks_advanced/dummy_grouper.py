@@ -49,4 +49,4 @@ def smart_grouper(data, n):
         yield tuple(islice(iterator, 0, n))
 #
 # print(list(smart_grouper(test_num_list, 2)))
-smart_grouper(range(100000000), 10)
+print(smart_grouper(range(100000000), 10))
