@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25c833b4-b254-4b43-ae8a-295cf7908dd4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_lessons_advanced/lesson_9_with_unittest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_lessons_advanced/lesson_9.py" afterPath="$PROJECT_DIR$/python_lessons_advanced/lesson_9.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -399,13 +397,6 @@
       <option name="presentableId" value="Default" />
       <updated>1499609798177</updated>
     </task>
-    <task id="LOCAL-00013" summary="intermediate commit">
-      <created>1500825569220</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1500825569220</updated>
-    </task>
     <task id="LOCAL-00014" summary="intermediate commit">
       <created>1501078572887</created>
       <option name="number" value="00014" />
@@ -742,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545479061338</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="lesson_9 commit">
+      <created>1545479908937</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1545479908937</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TodoView">
