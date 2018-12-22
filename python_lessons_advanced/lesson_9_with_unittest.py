@@ -9,8 +9,8 @@ def grouper(data, n):
 class TestGrouper(unittest.TestCase):
 
     bad_params = (
-        (range(10), None)
-        (range(10), 'foo')
+        (range(10), None),
+        (range(10), 'foo'),
         (range(10), {"foo": "bar"})
     )
 
@@ -27,7 +27,6 @@ class TestGrouper(unittest.TestCase):
         group_count = 2
         actual_result = list(grouper(range(10), group_count))
         assert all(list(map(lambda x: len(x) == group_count, actual_result)))
-
 
     def test_grouper_fails_if_groups_invalid(self):
         with self.assertRaises(TypeError):
