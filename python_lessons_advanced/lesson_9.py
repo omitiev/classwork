@@ -1,4 +1,4 @@
-def grouper (data, n):
+def grouper(data, n):
     data = [iter(data)] * n
     return zip(*data)
 
