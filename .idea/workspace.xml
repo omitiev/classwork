@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25c833b4-b254-4b43-ae8a-295cf7908dd4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_lessons_advanced/lesson_8.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_lessons_advanced/lesson_9.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_tasks_advanced/dummy_grouper.py" afterPath="$PROJECT_DIR$/python_tasks_advanced/dummy_grouper.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,21 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lesson_7.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_lessons_advanced/lesson_7.py">
+      <file leaf-file-name="lesson_9.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_lessons_advanced/lesson_9.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="64" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logger.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_tasks_advanced/logger.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="90" column="8" lean-forward="false" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+            <state relative-caret-position="960">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,28 +31,18 @@
       <file leaf-file-name="dummy_grouper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_tasks_advanced/dummy_grouper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+            <state relative-caret-position="246">
+              <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson_8.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lesson_8.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_lessons_advanced/lesson_8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_tasks_advanced/log.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="460">
+              <caret line="56" column="28" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="56" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -122,14 +101,16 @@
         <option value="$PROJECT_DIR$/python_tasks_advanced/dummy_grouper.py" />
         <option value="$PROJECT_DIR$/python_lessons_advanced/lessen_8.py" />
         <option value="$PROJECT_DIR$/python_lessons_advanced/lesson_8.py" />
+        <option value="$PROJECT_DIR$/python_lessons_advanced/lesson_(.py" />
+        <option value="$PROJECT_DIR$/python_lessons_advanced/lesson_9.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="-11" />
-    <option name="width" value="1865" />
-    <option name="height" value="1092" />
+    <option name="x" value="57" />
+    <option name="y" value="-4" />
+    <option name="width" value="1863" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -147,8 +128,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,6 +139,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="python_lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python_lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python_lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python_tasks_advanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -206,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lesson_8">
+  <component name="RunManager" selected="Python.lesson_9">
     <configuration default="false" name="lesson_classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,24 +215,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="classwork" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_classes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="professor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="classwork" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/professor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,6 +269,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_lessons" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_lessons_advanced/lesson_8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="lesson_9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_lessons_advanced" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_lessons" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_lessons_advanced/lesson_9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,18 +358,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.lesson_classes" />
-      <item index="1" class="java.lang.String" itemvalue="Python.professor" />
-      <item index="2" class="java.lang.String" itemvalue="Python.person" />
-      <item index="3" class="java.lang.String" itemvalue="Python.dummy_grouper" />
-      <item index="4" class="java.lang.String" itemvalue="Python.lesson_8" />
+      <item index="1" class="java.lang.String" itemvalue="Python.person" />
+      <item index="2" class="java.lang.String" itemvalue="Python.dummy_grouper" />
+      <item index="3" class="java.lang.String" itemvalue="Python.lesson_8" />
+      <item index="4" class="java.lang.String" itemvalue="Python.lesson_9" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.lesson_8" />
-        <item index="1" class="java.lang.String" itemvalue="Python.dummy_grouper" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lesson_classes" />
-        <item index="3" class="java.lang.String" itemvalue="Python.person" />
-        <item index="4" class="java.lang.String" itemvalue="Python.professor" />
+        <item index="0" class="java.lang.String" itemvalue="Python.lesson_9" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lesson_8" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dummy_grouper" />
+        <item index="3" class="java.lang.String" itemvalue="Python.lesson_classes" />
+        <item index="4" class="java.lang.String" itemvalue="Python.person" />
       </list>
     </recent_temporary>
   </component>
@@ -391,20 +386,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499609798177</updated>
-    </task>
-    <task id="LOCAL-00010" summary="intermediate commit">
-      <created>1500819467448</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1500819467448</updated>
-    </task>
-    <task id="LOCAL-00011" summary="intermediate commit">
-      <created>1500820587684</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1500820587684</updated>
     </task>
     <task id="LOCAL-00012" summary="intermediate commit">
       <created>1500822130845</created>
@@ -735,7 +716,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544645953850</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="intermediate commit">
+      <created>1544872135074</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1544872135075</updated>
+    </task>
+    <task id="LOCAL-00060" summary="lesson_8 commit">
+      <created>1544875275207</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1544875275207</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TodoView">
@@ -748,13 +743,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-11" width="1865" height="1092" extended-state="6" />
+    <frame x="57" y="-4" width="1863" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19702807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2058338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5063291" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.49367088" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.510732" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.48926803" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.49587232" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776618" sideWeight="0.49587232" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -785,7 +780,8 @@
     <MESSAGE value="task dummy_grouper - done" />
     <MESSAGE value="folder renamed" />
     <MESSAGE value="intermediate commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="intermediate commit" />
+    <MESSAGE value="lesson_8 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_8 commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -794,20 +790,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python_lessons_basics/lesson_types.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_lessons_basics/lesson_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_lessons_basics/lesson_conditions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
@@ -1110,14 +1092,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_tasks_advanced/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_lessons_advanced/lesson_7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
@@ -1126,9 +1100,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python_tasks_advanced/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_lessons_advanced/file_name.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_tasks_advanced/logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="86">
           <caret line="90" column="8" lean-forward="false" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
           <folding />
         </state>
@@ -1136,16 +1126,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_tasks_advanced/dummy_grouper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+        <state relative-caret-position="246">
+          <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python_lessons_advanced/lesson_8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="460">
+          <caret line="56" column="28" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="56" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_lessons_advanced/lesson_9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
